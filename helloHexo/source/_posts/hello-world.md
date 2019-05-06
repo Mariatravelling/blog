@@ -245,14 +245,6 @@ $$
 请参考"一键排版"中的"标题首字突出"样式的提示修改,可把此标题首字突出:
 ###<span class="firstletter">1</span>试试首字突出
 
-注:理论上Md2All是支持所有标准的html和css，但问题是公众号很多都不支持，所以上面只演示了部分支持的。
-
-<a id="footnote-1"></a>
-<a id="jump_20"></a>
-###赞赏Md2All
-如果你觉得到Md2All对你有帮助，欢迎赞赏，有你的支持，Md2All一定会越来越好！
-![大少赞赏码](http://img.blog.csdn.net/20171012155402463?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZ2FyeV95YW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
 ###版本更新记录
 ***
 版本号：V2.8.3
