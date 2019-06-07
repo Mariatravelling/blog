@@ -12,9 +12,9 @@ timezone:
 header_cover: /img/lake.jpg
 subtitle_desc: 你在德国的一切由我承包
 keywords: 德国，德国留学，德国旅行，德国文化，德国生活
-favicon_ico: /img/wechat.jpg
-logo: /img/wechat.jpg
-avatar: /img/wechat.jpg
+#favicon_ico: /img/wechat.jpg
+#logo: /img/wechat.jpg
+#avatar: /img/wechat.jpg
 
 
 # URL
@@ -82,11 +82,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
-
-
+  type: heroku
+  repo: https://girlsingermany.herokuapp.com
+  message: ~DeployOps~ Site generation pushed ({{ now('YYYY-MM-DD HH:mm:ss') }})
 
 
