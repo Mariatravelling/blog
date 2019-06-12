@@ -88,6 +88,6 @@ theme: landscape
 deploy:
   type: heroku
   repo: https://git.heroku.com/girlsingermany.git
-  message:  Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: {{ now('YYYY-MM-DD HH:mm:ss') }}
 
 
