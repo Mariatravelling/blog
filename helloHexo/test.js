@@ -1,5 +1,5 @@
 
-// const port = process.env.PORT || 4000;
+//const port = process.env.PORT || 4000;
 
 // // run hexo server 
 // var exec = require('child_process').exec;
@@ -9,10 +9,12 @@
 // }); 
 
 
-var http = require('http');
+ var http = require('http');
 
 //create a server object:
-http.createServer(function (req, res) {
-  res.write('Hello World!  THIS IS A TEST!'); //write a response to the client
-  res.end(); //end the response
-}).listen(8080); //the server object listens on port 8080
+ http.createServer(function (req, res) {
+   res.write('Hello World!  THIS IS A TEST!'); //write a response to the client
+   res.end(); //end the response
+ }).listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port);
+  });
