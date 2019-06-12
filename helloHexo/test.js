@@ -1,5 +1,5 @@
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 
 // run hexo server 
 var exec = require('child_process').exec;
