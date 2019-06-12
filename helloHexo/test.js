@@ -10,9 +10,9 @@ const port = process.env.PORT || 5000;
 
  var exec = require('child_process').exec;
 
- exec('./node_modules/.bin/hexo server -p' + port, function (error, stdOut, stdErr) {
+ exec('hexo server -p ' + port, function (error, stdOut, stdErr) {
     console.log(stdOut); // do what you want!
-    console.log(port);
+    console.log(error);
  });
 
 
