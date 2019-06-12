@@ -87,7 +87,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: heroku
-  repo: https://girlsingermany.herokuapp.com
-  message: ~DeployOps~ Site generation pushed ({{ now('YYYY-MM-DD HH:mm:ss') }})
+  repo: https://git.heroku.com/girlsingermany.git
+  message:  Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
 
 
