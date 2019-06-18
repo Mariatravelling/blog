@@ -1,6 +1,7 @@
 ---
 title: search
-date: 2019-05-05 22:19:30
+date: 2017-07-29 00:50:51
+type: search
+layout: search
 ---
-
 the results are shown here

@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 欢迎小可爱们
+title: 好姑娘在德国
 subtitle: 好姑娘在德国
 description: 在这你能找到关于德国的一切。
 author: 小慧慧
 language: zh-cn
 timezone:
-header_cover: /img/lake.jpg
+#header_cover: /img/lake.jpg
 subtitle_desc: 你在德国的一切由我承包
 keywords: 德国，德国留学，德国旅行，德国文化，德国生活
 #favicon_ico: /img/wechat.jpg
-#logo: /img/wechat.jpg
-#avatar: /img/wechat.jpg
+logo: /img/logo1.jpg
+avatar: /img/wechat.jpg
 
 
 # URL
@@ -88,6 +88,28 @@ theme: landscape
 deploy:
   type: heroku
   repo: https://git.heroku.com/girlsingermany.git
-  message: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: "{{ now('YYYY-MM-DD HH:mm:ss') }}"
 
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+# # Search feature
+# search:
+#   path: search.xml
+#   field: post
+#   content: false
+admin:
+  username: test
+  password_hash: be121740bf988b2225a313fa1f107ca1
+  secret: a secret something
+
+metadata:
+  author_id: defaultAuthorId
+  language:
